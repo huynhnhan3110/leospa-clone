@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.nav__list {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+}
+.nav__item:nth-child(2){
+    flex-grow: 1;
+    text-align: right;
+}
+.nav__item:last-child {
+    flex-grow: 3;
+}
+.nav__item:not(:first-child) {
+    margin: 0 2.4rem;
+}
+.nav__link {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--gray-dark);
+}
+
+.nav__item:first-child a {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+.nav__item:first-child a img {
+    margin: 0 auto;
+}

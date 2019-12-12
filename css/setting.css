@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #ff817e;
+    --gray-dark: #263a41;
+    --gray-light: #999999;
+    --bg-block: #fff9f8;
+    --wrapper: 192rem;
+    --container: 114rem;
+    --primary-font: "Roboto";
+    --secondary-font: "Rufina";
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: var(--primary-font);
+    background-color: white;
+    color: var(--gray-dark);
+    font-weight: 400;
+}
+.wrapper {
+    max-width: var(--wrapper);
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    max-width: var(--container);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
